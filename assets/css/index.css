@@ -16,6 +16,7 @@ h1 {
 
 /* LEFT CONTAINER */ 
 .rainbow_text {
+    /* Rainbow colored text taken from https://stackoverflow.com/questions/40557461/rainbow-gradient-on-text-in-css */
     background: linear-gradient(to bottom right, orange , yellow, green, cyan, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
